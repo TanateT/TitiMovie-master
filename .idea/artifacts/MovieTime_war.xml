@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MovieTime:war">
+    <output-path>$PROJECT_DIR$/TitiMovie-master/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MovieTime</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MovieTime.war">
+      <element id="artifact" artifact-name="MovieTime:war exploded" />
+    </root>
+  </artifact>
+</component>
